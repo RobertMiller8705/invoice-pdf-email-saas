@@ -1,0 +1,7 @@
+{
+  "name": "invoice-pdf-email-saas",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "tsx src/main.ts", "test": "tsx src/invoice-service.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"tsx": "^4.19.0", "typescript": "^5.6.3", "zod": "^3.23.8"}
+}
